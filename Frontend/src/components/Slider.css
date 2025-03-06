@@ -1,0 +1,34 @@
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .fade {
+    animation: fadeEffect 1.5s infinite;
+  }
+  
+  @keyframes fadeEffect {
+    from { opacity: 0.4 }
+    to { opacity: 1 }
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
